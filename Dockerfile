@@ -6,5 +6,3 @@ RUN \
 	pip install dnsviz && \
 	rm -rf /var/lib/apt/lists/* && \
 	rm -rf /root/.cache/pip
-
-USER nobody:nobody
